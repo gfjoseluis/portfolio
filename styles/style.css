@@ -1,0 +1,68 @@
+body::-webkit-scrollbar {
+  width: 8px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #0F2537;
+  /* color of the tracking area #0F2537 */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid #ffffff; */
+  /* creates padding around scroll thumb */
+}
+
+.screen {
+  position: relative;
+}
+
+/* The sidebar menu */
+.sideleft {
+  position: fixed;
+  padding: 0px 0px 80px 0px;
+  bottom: 0;
+  left: 0;
+}
+
+/* The navigation menu links */
+.sideleft a {
+  padding: 6px 8px 6px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  font-size: x-large;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sideleft a:hover {
+  color: #56C0E0;
+}
+
+.sideright {
+  position: fixed;
+  padding: 0px 0px 80px 0px;
+  bottom: 0;
+  right: 0;
+}
+
+/* The navigation menu links */
+.sideright a {
+  writing-mode: vertical-rl;
+  padding: 6px 50px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  font-size: medium;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sideright a:hover {
+  color: #56C0E0;
+}
